@@ -67,17 +67,23 @@
         color: red;
       }
       
+      .info {
+        width: 750px;
+        display: block;
+        margin: auto;
+      }
+      
       .message-form input[type="submit"] {
         border: 2px solid green;
         background: lightgreen;
-        padding: 5px;
-        border-radius: 50%;
+        padding: 7px;
+        border-radius: 5px;
       }
       
       #message {
         border: 1px solid black;
         padding: 5px;
-        border-radius: 50%;
+        border-radius: 5px;
       }
       
       #message:focus {
@@ -99,10 +105,10 @@
     <script src="public/javascripts/chat.js"></script>
     <script src="public/javascripts/chat_ui.js"></script>
     
-    <title>Chat App</title>
+    <title>ChatSock</title>
   </head>
   <body>
-    <h1>Chat App</h1>
+    <h1>Welcome to Chat Sock!</h1>
     <div class="chat-window">
     
       <ul class="chat">
@@ -115,6 +121,13 @@
         <input type="submit" value="Send Chat!" >
       </form>
     </div>
+    
+    <section class="info">
+      <p>Chat Sock supports /nick for changing a user's nick as well as /join for joining/creating another room</p>
+    
+      <p>Check out my <a href="https://github.com/Axylos">github</a> or my <a href="http://www.draketalley.com">personal site</a>!</p>
+    
+    </section>
   </body>
 
 </html>
